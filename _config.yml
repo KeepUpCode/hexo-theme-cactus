@@ -23,7 +23,8 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  tags: /tags/
+  tag: /tag/
+  category: /category/
   search: /search/
   projects: https://github.com/KeepUpCode
 
