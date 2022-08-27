@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: https://github.com/KeepUpCode
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -13,23 +13,34 @@ direction: ltr
 # A pair 'Key: url' will result in a link to 'url' with the name 'Key' in the
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
+# nav:
+  # home: /
+  # about: /about/
+  # articles: /archives/
+  # projects: http://github.com/probberechts
+
 nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/probberechts
+  search: /search/
+  projects: https://github.com/KeepUpCode
 
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
+# social_links:
+  # github: http://github.com/probberechts/cactus-dark
+  # twitter: /
+  # facebook: /
+  # linkedin: /
+  # mail: mailto:name@email.com
+
 social_links:
-  github: http://github.com/probberechts/cactus-dark
-  twitter: /
-  facebook: /
-  linkedin: /
-  mail: mailto:name@email.com
+  github: https://github.com/KeepUpCode
+  mail: mailto:keepupalltime@163.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -147,11 +158,18 @@ disqus:
   shortname: cactus-1
 
 # Fill in your Utterances data to enable Utterances comments
+# utterances:
+  # enabled: false
+  # repo: owner/githubrepo
+  # issue_term: pathname
+  # label: Comment
+  # theme: github-dark
+  
 utterances:
-  enabled: false
-  repo: owner/githubrepo
+  enabled: true
+  repo: KeepUpCode/KeepUpCode.github.io
   issue_term: pathname
-  label: Comment
+  label: KeepUp
   theme: github-dark
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
@@ -161,8 +179,8 @@ google_analytics:
 
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
 baidu_analytics:
-  enabled: false
-  id: 2e6da3c375c8a87f5b664cea6d4cb29c
+  enabled: true
+  id: 9d05b931c32ca40cce4c0af59d7b6b9a
 
 # Fill in your Cloudflare Analytics tracking ID to enable Cloudflare Analytics.
 cloudflare_analytics:
